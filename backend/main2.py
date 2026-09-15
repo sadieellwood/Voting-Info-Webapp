@@ -1,22 +1,20 @@
-import os
-import requests
-from dotenv import load_dotenv
 import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List 
 
-load_dotenv()
+class Fruit(BaseModel):
+    name: str
 
-API_KEY = os.getenv("CIVIC_API_KEY")
+class Fruits(BaseModel):
+    fruits: List[Fruit]
 
 app = FastAPI()
 
 origins  = [
     "http://localhost:5173"
 ]
-
 
 app.add_middleware(
     CORSMiddleware,
@@ -26,15 +24,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/info")
-def get_voter_info():
-    url = "https://www.googleapis.com/civicinfo/v2/elections"
-    params = {
-        "key": API_KEY
-    }
-    response = requests.get(url, params=params)
-    return response.json()
+memory_db = {"fruits": []}
 
+@app.get("/fruits", response_model=Fruits)
+def get_fruits():
+    return Fruits(fruits=memory_db["fruits"])
+
+@app.post("/fruits")
+def add_fruit(fruit: Fruit):
+    memory_db["fruits"].append(fruit)
+    return fruit
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
