@@ -1,54 +1,59 @@
 import api from "../api.js";
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import AddressForm from "./addressForm.jsx";
-
-const testAddr = {
-  "address": {
-    "regionCode": "US",
-    "addressLines": ["1600 Amphitheatre Pkwy", "Mountain View, CA, 94043"]
-  },
-};
+import VotingInfoDisplay from "./votingInfoDisplay.jsx";
 
 const VoterInfo = () => {
-    const [voterInfo, setVoterInfo] = useState("");
-    const [validatedAddr, setValidatedAddr] = useState("")
+  const [voterInfo, setVoterInfo] = useState(null);
+  const [validatedAddr, setValidatedAddr] = useState("");
+  const [activePage, setActivePage] = useState("addressEntryPage");
+  const [validationAlertOpen, setValidationAlertOpen] = useState(false);
 
-    const validateAddressInput = async (address) => {
-      console.log(address)
-      try {
-        const response = await api.post('/addressValidation', address)
-        setValidatedAddr(response.data)
-        await getVoterInformationFromAddr(response.data)
-      } catch (error) {
-        console.error("Error validating address:", error)
-      }
+  const validateAddressInput = async (address) => {
+    console.log(address);
+    try {
+      const response = await api.post("/addressValidation", address);
+      setValidatedAddr(response.data);
+      setValidationAlertOpen(true);
+    } catch (error) {
+      console.error("Error validating address:", error);
+    }
+  };
 
-      
-    };
+  const getVoterInformationFromAddr = async (address) => {
+    try {
+      //let's maybe try to do this in the backend
+      const electionId = await api.get("/elections");
+      const response = await api.post("/info", {
+        address: address,
+        electionId: electionId.data,
+      });
+      setVoterInfo(response.data);
+    } catch (error) {
+      console.error("Error getting address:", error);
+    }
+  };
 
-    const getVoterInformationFromAddr = async (address) => {
-        try {
-          const electionId = await api.get("/elections")
-          console.log(electionId.data)
-          console.log(`voterInfo address: ${address}`)
-          const response = await api.post('/info', {address: address, electionId: electionId.data});
-          setVoterInfo(JSON.stringify(response.data))
-          //fetchFruits();  // Refresh the list after adding a fruit
-        } catch (error) {
-          console.error("Error getting address:", error);
-        }
-      };
-
-    return (
+  return (
     <div>
-        <h2>Voter Info</h2>
-        <pre>{voterInfo ? `Voting info for ${validatedAddr}: ${voterInfo}` : "Type in your address to see your voter information."}</pre>
-        <AddressForm validateAddressInput = {validateAddressInput} getVoterInformationFromAddr = {getVoterInformationFromAddr}/>
-
+      <h2>Voter Info</h2>
+      {activePage == "addressEntryPage" ? (
+        <>
+          <h3>Enter your address to see your voting information</h3>
+          <AddressForm
+            validateAddressInput={validateAddressInput}
+            getVoterInformationFromAddr={getVoterInformationFromAddr}
+            validatedAddr={validatedAddr}
+            setActivePage={setActivePage}
+            validationAlertOpen={validationAlertOpen}
+            setValidationAlertOpen={setValidationAlertOpen}
+          />
+        </>
+      ) : (
+        voterInfo && <VotingInfoDisplay voterInfo={voterInfo} />
+      )}
     </div>
-    
-    );
+  );
 };
 
 export default VoterInfo;
-
