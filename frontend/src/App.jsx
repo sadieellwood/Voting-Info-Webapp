@@ -1,6 +1,5 @@
-import React from 'react';
-import './App.css';
-import VoterInfo from './components/voterInfo';
+import React from "react";
+import VoterInfo from "./components/voterInfo";
 
 const App = () => {
   return (

@@ -8,12 +8,16 @@ const VoterInfo = () => {
   const [validatedAddr, setValidatedAddr] = useState("");
   const [activePage, setActivePage] = useState("addressEntryPage");
   const [validationAlertOpen, setValidationAlertOpen] = useState(false);
+  const [voterPosition, setVoterPosition] = useState(null);
 
+  //Validating user's address input
   const validateAddressInput = async (address) => {
     console.log(address);
     try {
       const response = await api.post("/addressValidation", address);
-      setValidatedAddr(response.data);
+      console.log(response.data);
+      setValidatedAddr(response.data.formattedAddress);
+      setVoterPosition(response.data.position);
       setValidationAlertOpen(true);
     } catch (error) {
       console.error("Error validating address:", error);
@@ -23,10 +27,10 @@ const VoterInfo = () => {
   const getVoterInformationFromAddr = async (address) => {
     try {
       //let's maybe try to do this in the backend
-      const electionId = await api.get("/elections");
-      const response = await api.post("/info", {
+      const electionIds = await api.get("/elections");
+      const response = await api.post("/polling", {
         address: address,
-        electionId: electionId.data,
+        electionId: electionIds.data[1].id,
       });
       setVoterInfo(response.data);
     } catch (error) {
@@ -50,7 +54,12 @@ const VoterInfo = () => {
           />
         </>
       ) : (
-        voterInfo && <VotingInfoDisplay voterInfo={voterInfo} />
+        voterInfo && (
+          <VotingInfoDisplay
+            voterInfo={voterInfo}
+            voterPosition={voterPosition}
+          />
+        )
       )}
     </div>
   );
