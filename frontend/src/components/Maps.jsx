@@ -11,7 +11,7 @@ const VotingMap = ({ pollPosition, addrPosition }) => (
   <APIProvider apiKey={API_KEY} onLoad={() => console.log("API loaded")}>
     <div style={{ width: "100%", height: "500px" }}>
       <Map
-        mapId="fd189ea96fa3d66a1e70609a"
+        mapId="lalala"
         defaultZoom={13}
         defaultCenter={pollPosition}
         onLoad={console.log(addrPosition, pollPosition)}
