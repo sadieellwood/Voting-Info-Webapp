@@ -1,5 +1,6 @@
 import React from "react";
 import VoterInfo from "./components/voterInfo";
+import TestMap from "./components/testMap";
 
 const App = () => {
   return (
