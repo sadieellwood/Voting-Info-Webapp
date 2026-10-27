@@ -2,13 +2,8 @@ import fakeData from "./fakeData.json";
 import VotingMap from "./Maps";
 
 const VotingInfoDisplay = ({ voterInfo, voterPosition }) => {
-  const pollPositions = [
-    {
-      lat: fakeData.pollingLocations[0].latitude,
-      lng: fakeData.pollingLocations[0].longitude,
-    },
-  ];
-
+  const pollPositions = fakeData.pollingLocations;
+  console.log(pollPositions);
   return (
     <div>
       <h2>Your polling locations</h2>
@@ -24,7 +19,7 @@ const VotingInfoDisplay = ({ voterInfo, voterPosition }) => {
       </ul>
       <div>
         <VotingMap
-          pollPosition={pollPosition}
+          pollPositions={pollPositions}
           addrPosition={voterPosition}
         ></VotingMap>
       </div>

@@ -32,46 +32,4 @@ const TestMap = ({}) => (
   </APIProvider>
 );
 
-function Directions() {
-  const map = useMap(); // Access the raw map instance
-  const routesLib = useMapsLibrary("routes"); // Load the modern 'routes' library
-  const [routePolylines, setRoutePolylines] = useState([]);
-
-  useEffect(() => {
-    if (!map || !routesLib) return;
-
-    const fetchRoute = async () => {
-      // 1. Define the routes request
-      const request = {
-        origin: "Mountain View, CA",
-        destination: "San Francisco, CA",
-        travelMode: "DRIVING",
-        fields: ["path"], // Request fields required to construct the visual path
-      };
-
-      try {
-        // 2. Compute the route using the Route class
-        const { routes } = await routesLib.Route.computeRoutes(request);
-
-        if (!routes || routes.length === 0) return;
-
-        // Clean up any existing polylines on the map
-        routePolylines.forEach((p) => p.setMap(null));
-
-        // 3. Create polylines and link them to the active map instance
-        const polylines = routes[0].createPolylines();
-        polylines.forEach((polyline) => polyline.setMap(map));
-
-        setRoutePolylines(polylines);
-      } catch (error) {
-        console.error("Error computing route:", error);
-      }
-    };
-
-    fetchRoute();
-  }, [map, routesLib]);
-
-  return null; // This component handles side effects on the map directly
-}
-
 export default TestMap;
