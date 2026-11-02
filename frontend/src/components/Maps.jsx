@@ -12,7 +12,8 @@ import AddressForm from "./addressForm";
 const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 const MAP_ID = import.meta.env.VITE_MAP_ID;
 
-const VotingMap = ({ pollPositions, addrPosition }) => {
+const VotingMap = ({ votingLocations, addrPosition }) => {
+  console.log(votingLocations);
   return (
     <APIProvider apiKey={API_KEY} onLoad={() => console.log("API loaded")}>
       <div style={{ width: "100%", height: "500px" }}>
@@ -24,22 +25,28 @@ const VotingMap = ({ pollPositions, addrPosition }) => {
           onLoad={console.log(addrPosition)}
         >
           {/* Handle mulitple polling palaces */}
-          <Markers pollPositions={pollPositions} addrPosition={addrPosition} />
-          <Routes pollPositions={pollPositions} addrPosition={addrPosition} />
+          <Markers
+            votingLocations={votingLocations}
+            addrPosition={addrPosition}
+            //setVisiblePoll={setVisiblePoll}
+          />
+          <Routes
+            votingLocations={votingLocations}
+            addrPosition={addrPosition}
+          />
         </Map>
       </div>
     </APIProvider>
   );
 };
 
-function Markers({ pollPositions, addrPosition }) {
-  console.log(pollPositions);
+function Markers({ votingLocations, addrPosition }) {
   return (
     <>
-      {pollPositions.map((poll) => (
+      {votingLocations.map((location) => (
         <AdvancedMarker
-          key={poll.address.locationName}
-          position={{ lat: poll.latitude, lng: poll.longitude }}
+          key={location.name}
+          position={{ lat: location.lat, lng: location.lng }}
         >
           <Pin />
         </AdvancedMarker>
@@ -75,10 +82,12 @@ function Directions({ pollPosition, addrPosition }) {
 
         if (!routes || routes.length === 0) return;
 
-        // Clean up any existing polylines on the map
+        console.log(routes);
+
+        // if existing polylines, remove
         routePolylines.forEach((p) => p.setMap(null));
 
-        // Create polylines and link them to the active map instance
+        // create polylines and link them to the active map instance
         const polylines = routes[0].createPolylines();
         polylines.forEach((polyline) => polyline.setMap(map));
 
@@ -94,12 +103,13 @@ function Directions({ pollPosition, addrPosition }) {
   return null; // This component handles side effects on the map directly
 }
 
-function Routes({ pollPositions, addrPosition }) {
-  return pollPositions.map((poll) => (
+function Routes({ votingLocations, addrPosition }) {
+  console.log(votingLocations);
+  return votingLocations.map((location) => (
     <Directions
-      pollPosition={{ lat: poll.latitude, lng: poll.longitude }}
+      pollPosition={{ lat: location.lat, lng: location.lng }}
       addrPosition={addrPosition}
-      key={poll.address.locationName}
+      key={location.name}
     />
   ));
 }

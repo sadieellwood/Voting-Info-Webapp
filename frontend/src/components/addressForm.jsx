@@ -7,7 +7,6 @@ const AddressForm = ({
   validateAddressInput,
   getVoterInformationFromAddr,
   validatedAddr,
-  setActivePage,
   validationAlertOpen,
   setValidationAlertOpen,
 }) => {
@@ -29,7 +28,6 @@ const AddressForm = ({
 
   const handleAddressConfirmation = () => {
     getVoterInformationFromAddr(validatedAddr);
-    setActivePage("votingInfomationPage");
   };
 
   // TODO: add an icon?
@@ -133,11 +131,8 @@ const AddressForm = ({
             </select>
           </div>
           <div className="flex flex-col gap-2">
-            <label
-              htmlFor="state"
-              className="text-sm font-medium text-gray-700"
-            >
-              State
+            <label htmlFor="zip" className="text-sm font-medium text-gray-700">
+              ZIP Code
             </label>
             <Input
               type="text"

@@ -2,11 +2,12 @@ import api from "../api.js";
 import React, { useEffect, useState } from "react";
 import AddressForm from "./addressForm.jsx";
 import VotingInfoDisplay from "./votingInfoDisplay.jsx";
+import { useNavigate } from "react-router-dom";
 
-const VoterInfo = () => {
-  const [voterInfo, setVoterInfo] = useState(null);
+const AddressPage = () => {
+  const navigate = useNavigate();
+
   const [validatedAddr, setValidatedAddr] = useState("");
-  const [activePage, setActivePage] = useState("addressEntryPage");
   const [validationAlertOpen, setValidationAlertOpen] = useState(false);
   const [voterPosition, setVoterPosition] = useState(null);
 
@@ -26,13 +27,19 @@ const VoterInfo = () => {
 
   const getVoterInformationFromAddr = async (address) => {
     try {
-      //let's maybe try to do this in the backend
+      // TODO: let's maybe try to do this in the backend
       const electionIds = await api.get("/elections");
       const response = await api.post("/polling", {
         address: address,
-        electionId: electionIds.data[1].id,
+        electionId: electionIds.data[0].id,
       });
-      setVoterInfo(response.data);
+
+      navigate("voting-info", {
+        state: {
+          voterInfo: response.data,
+          voterPosition: voterPosition,
+        },
+      });
     } catch (error) {
       console.error("Error getting address:", error);
     }
@@ -51,30 +58,18 @@ const VoterInfo = () => {
             Find Your Polling Location!
           </h2>
         </div>
-        {activePage == "addressEntryPage" ? (
-          <>
-            <div className="bg-gray-50 px-8 py-8">
-              <h3 className="text-xl font-semibold text-gray-800">
-                Enter your address
-              </h3>
-              <AddressForm
-                validateAddressInput={validateAddressInput}
-                getVoterInformationFromAddr={getVoterInformationFromAddr}
-                validatedAddr={validatedAddr}
-                setActivePage={setActivePage}
-                validationAlertOpen={validationAlertOpen}
-                setValidationAlertOpen={setValidationAlertOpen}
-              />
-            </div>
-          </>
-        ) : (
-          voterInfo && (
-            <VotingInfoDisplay
-              voterInfo={voterInfo}
-              voterPosition={voterPosition}
-            />
-          )
-        )}
+        <div className="bg-gray-50 px-8 py-8">
+          <h3 className="text-xl font-semibold text-gray-800">
+            Enter your address
+          </h3>
+          <AddressForm
+            validateAddressInput={validateAddressInput}
+            getVoterInformationFromAddr={getVoterInformationFromAddr}
+            validatedAddr={validatedAddr}
+            validationAlertOpen={validationAlertOpen}
+            setValidationAlertOpen={setValidationAlertOpen}
+          />
+        </div>
       </div>
     </div>
   );
