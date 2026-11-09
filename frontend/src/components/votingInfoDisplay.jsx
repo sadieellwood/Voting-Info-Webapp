@@ -1,17 +1,44 @@
-import fakeData from "./fakeData.json";
 import VotingMap from "./Maps";
 import { Navigate, useLocation } from "react-router-dom";
-import { useState, createContext, useContext } from "react";
+import { useState, useContext } from "react";
+import PollContext from "./PollContext";
 
-const PollContext = createContext();
+const PollSpecficInformation = ({}) => {
+  const { selectedPoll } = useContext(PollContext);
 
-const PollSpecficInformation = ({ pollingData }) => {
-  const selectedPoll = useContext(PollContext);
-  // would it be better to put API calls in here? in future with the tabs
-  const dataNeeded = [""];
+  if (!selectedPoll) {
+    return (
+      <div className="flex h-full flex-col items-center justify-center p-6 text-center">
+        <h2 className="mb-2 text-lg font-bold text-gray-800">
+          Select a Location!
+        </h2>
+        <p className="text-sm text-gray-500">
+          Click on a map marker to view polling location details.
+        </p>
+      </div>
+    );
+  }
+
+  const address = selectedPoll.address;
   return (
-    <div>
-      <p></p>
+    <div className="flex h-full flex-col">
+      <div className="px-6 py-5">
+        <h2 className="text-xl leading-snug">{selectedPoll.name}</h2>
+        <p className="mb-2 text-xs font-bold uppercase tracking-widest text-blue-800">
+          {selectedPoll.type}
+        </p>
+      </div>
+      <p>
+        address: {address.street} {address.city}, {address.state} {address.zip}
+      </p>
+      <p>type: {selectedPoll.type}</p>
+      <p>
+        polling hours:
+        {selectedPoll?.pollingHours || "unavailable"}
+      </p>
+      <p>voter services: {selectedPoll?.voterServices || "unavailable"}</p>
+      <p>Start Date: {selectedPoll?.startDate || "unavailable"}</p>
+      <p>End Date: {selectedPoll?.endDate || "unavailable"}</p>
     </div>
   );
 };
@@ -20,10 +47,11 @@ const VotingInfoDisplay = ({ voterInfo, voterPosition }) => {
   console.log(voterInfo);
   const votingLocations = voterInfo.locations;
   console.log(votingLocations);
+
   const [selectedPoll, setSelectedPoll] = useState(null);
 
   return (
-    <PollContext.Provider value={selectedPoll}>
+    <PollContext.Provider value={{ selectedPoll, setSelectedPoll }}>
       <div className="bg-blue-400 flex h-screen w-full items-center justify-center ">
         <div className="flex flex-col w-full max-w-4xl gap-5">
           <div className="flex gap-3 h-20 w-full items-center overflow-hidden rounded-2xl bg-white px-8 shadow-xl">
@@ -36,20 +64,15 @@ const VotingInfoDisplay = ({ voterInfo, voterPosition }) => {
               Your Polling Locations
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-5">
-            <div className="col-span-2 border overflow-hidden rounded-2xl">
+          <div className="grid grid-cols-5 gap-5">
+            <div className="col-span-3 border overflow-hidden rounded-2xl shadow-xl">
               <VotingMap
                 votingLocations={votingLocations}
                 addrPosition={voterPosition}
               ></VotingMap>
             </div>
-            <div className="col-span-1 overflow-hidden rounded-2xl bg-white shadow-xl">
-              <div className="flex flex-col text-m">
-                {votingLocations.map((location) => (
-                  <p className="px-10">{location.name}</p>
-                ))}
-              </div>
-              <div></div>
+            <div className="col-span-2 overflow-hidden rounded-2xl shadow-xl bg-white">
+              <PollSpecficInformation />
             </div>
           </div>
         </div>
