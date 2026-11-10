@@ -10,6 +10,7 @@ const AddressPage = () => {
   const [validatedAddr, setValidatedAddr] = useState("");
   const [validationAlertOpen, setValidationAlertOpen] = useState(false);
   const [voterPosition, setVoterPosition] = useState(null);
+  const [city, setCity] = useState("");
 
   // Validating user's address input
   const validateAddressInput = async (address) => {
@@ -32,6 +33,7 @@ const AddressPage = () => {
       const response = await api.post("/polling", {
         address: address,
         electionId: electionIds.data[0].id,
+        city: city,
       });
 
       navigate("voting-info", {
@@ -68,6 +70,8 @@ const AddressPage = () => {
             validatedAddr={validatedAddr}
             validationAlertOpen={validationAlertOpen}
             setValidationAlertOpen={setValidationAlertOpen}
+            setCity={setCity}
+            city={city}
           />
         </div>
       </div>

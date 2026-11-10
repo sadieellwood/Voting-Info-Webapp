@@ -13,16 +13,21 @@ const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 const MAP_ID = import.meta.env.VITE_MAP_ID;
 
 const VotingMap = ({ votingLocations, addrPosition }) => {
+  console.log(votingLocations == 0);
   return (
     <APIProvider apiKey={API_KEY} onLoad={() => console.log("API loaded")}>
       <div style={{ width: "100%", height: "500px" }}>
         <Map
           mapId={MAP_ID}
-          defaultZoom={8}
-          defaultCenter={{
-            lat: votingLocations[0].lat,
-            lng: votingLocations[0].lng,
-          }}
+          defaultZoom={13}
+          defaultCenter={
+            votingLocations.length
+              ? {
+                  lat: votingLocations[0].lat,
+                  lng: votingLocations[0].lng,
+                }
+              : addrPosition
+          }
           disableDefaultUI={true}
         >
           {/* Handle mulitple polling palaces */}
@@ -116,6 +121,8 @@ function Directions({ pollPosition, addrPosition }) {
         console.log(routes);
 
         if (!routes || routes.length === 0) return;
+
+        console.log(routes);
 
         // create polylines and link them to the active map instance
         const polylines = routes[0].createPolylines();

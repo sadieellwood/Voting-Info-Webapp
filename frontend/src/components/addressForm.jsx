@@ -9,9 +9,10 @@ const AddressForm = ({
   validatedAddr,
   validationAlertOpen,
   setValidationAlertOpen,
+  setCity,
+  city,
 }) => {
   const [streetAddress, setStreetAddress] = useState("");
-  const [city, setCity] = useState("");
   const [zipCode, setZipCode] = useState("");
   const [state, setState] = useState("");
 

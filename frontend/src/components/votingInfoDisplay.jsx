@@ -2,8 +2,48 @@ import VotingMap from "./Maps";
 import { Navigate, useLocation } from "react-router-dom";
 import { useState, useContext } from "react";
 import PollContext from "./PollContext";
+import { Tabs } from "@heroui/react";
 
-const PollSpecficInformation = ({}) => {
+const TabGroup = ({}) => {
+  return (
+    <Tabs className="w-full max-w-md" variant="secondary">
+      <Tabs.ListContainer>
+        <Tabs.List aria-label="tab options">
+          <Tabs.Tab id="location">
+            Location <Tabs.Indicator />
+          </Tabs.Tab>
+
+          <Tabs.Tab id="transit">
+            Transit <Tabs.Indicator />
+          </Tabs.Tab>
+
+          <Tabs.Tab id="election">
+            Election
+            <Tabs.Indicator />
+          </Tabs.Tab>
+
+          <Tabs.Tab id="resources">
+            Resources
+            <Tabs.Indicator />
+          </Tabs.Tab>
+        </Tabs.List>
+      </Tabs.ListContainer>
+      <Tabs.Panel className="pt-4" id="location">
+        <LocationInfo />
+      </Tabs.Panel>
+      <Tabs.Panel className="pt-4" id="transit">
+        <TransitInfo />
+      </Tabs.Panel>
+      <Tabs.Panel className="pt-4" id="election">
+        <ElectionInfo />
+      </Tabs.Panel>
+      <Tabs.Panel className="pt-4" id="resources">
+        <Resources />
+      </Tabs.Panel>
+    </Tabs>
+  );
+};
+const LocationInfo = ({}) => {
   const { selectedPoll } = useContext(PollContext);
 
   if (!selectedPoll) {
@@ -43,6 +83,26 @@ const PollSpecficInformation = ({}) => {
   );
 };
 
+const TransitInfo = ({}) => {
+  return (
+    <div className="flex h-full flex-col">
+      <p>Transit info yeahhhhh</p>
+    </div>
+  );
+};
+
+const ElectionInfo = ({}) => {
+  return (
+    <div className="flex h-full flex-col">
+      <p>Election Info</p>
+    </div>
+  );
+};
+
+const Resources = ({}) => {
+  return <div className="flex h-full flex-col">Resources</div>;
+};
+
 const VotingInfoDisplay = ({ voterInfo, voterPosition }) => {
   console.log(voterInfo);
   const votingLocations = voterInfo.locations;
@@ -72,7 +132,7 @@ const VotingInfoDisplay = ({ voterInfo, voterPosition }) => {
               ></VotingMap>
             </div>
             <div className="col-span-2 overflow-hidden rounded-2xl shadow-xl bg-white">
-              <PollSpecficInformation />
+              <TabGroup />
             </div>
           </div>
         </div>
