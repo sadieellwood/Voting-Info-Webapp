@@ -1,0 +1,1536 @@
+{
+    "Addison": [
+        {
+            "address": "65 VT Route 17 West, Vergennes",
+            "name": "Addison Town Clerk's Office"
+        }
+    ],
+    "Albany": [
+        {
+            "address": "827 Main Street, Albany",
+            "name": "Albany Town Hall"
+        }
+    ],
+    "Alburgh": [
+        {
+            "address": "36 Firehouse Road, Alburgh",
+            "name": "Alburgh Fire Hall"
+        }
+    ],
+    "Andover": [
+        {
+            "address": "59 Town Hall Road, Chester",
+            "name": "Andover Town Hall"
+        }
+    ],
+    "Arlington": [
+        {
+            "address": "54 Legion Road, Arlington",
+            "name": "American Legion Post #69"
+        }
+    ],
+    "Ascutney": [
+        {
+            "address": "5259 US Route 5, Ascutney",
+            "name": "Martin Memorial Hall"
+        }
+    ],
+    "Athens": [
+        {
+            "address": "25 Brookline Road, Athens",
+            "name": "Athens Town Office"
+        }
+    ],
+    "Bakersfield": [
+        {
+            "address": "40 East Bakersfield Road, Bakersfield",
+            "name": "Town Hall"
+        }
+    ],
+    "Baltimore": [
+        {
+            "address": "1902 Baltimore Road, Chester",
+            "name": "Baltimore Town Office"
+        }
+    ],
+    "Barnard": [
+        {
+            "address": "115 North Road, Bethel",
+            "name": "Town Hall"
+        }
+    ],
+    "Barnet": [
+        {
+            "address": "151 Bimson Drive, Barnet",
+            "name": "Fire & Rescue Station"
+        }
+    ],
+    "Barre City": [
+        {
+            "address": "20 Auditorium Hill, Barre",
+            "name": "Barre City Auditorium"
+        }
+    ],
+    "Barre Town": [
+        {
+            "address": "70 Websterville Road, Barre Town",
+            "name": "Barre Town Middle & Elementary School Gymnasium"
+        }
+    ],
+    "Barton": [
+        {
+            "address": "34 Main Street, Barton",
+            "name": "Town Office"
+        }
+    ],
+    "Belvidere": [
+        {
+            "address": "3996 VT Route 109, Belvidere Center",
+            "name": "Belvidere Town Clerk"
+        }
+    ],
+    "Bennington": [
+        {
+            "address": "130 River Street, Bennington",
+            "name": "Bennington Fire House"
+        }
+    ],
+    "Benson": [
+        {
+            "address": "2724 Stage Road, Benson",
+            "name": "Benson Community Hall"
+        }
+    ],
+    "Berkshire": [
+        {
+            "address": "4454 Water Tower Road, Enosburg Falls",
+            "name": "Town of Berkshire"
+        }
+    ],
+    "Berlin": [
+        {
+            "address": "108 Shed Road, Berlin",
+            "name": "Berlin Municipal Office"
+        }
+    ],
+    "Bethel": [
+        {
+            "address": "587 Pleasant Street, Bethel",
+            "name": "Bethel Fire Department"
+        }
+    ],
+    "Bloomfield": [
+        {
+            "address": "27 Schoolhouse Road, Bloomfield",
+            "name": "Old Schoolhouse"
+        }
+    ],
+    "Bolton": [
+        {
+            "address": "2712 Theodore Roosevelt Highway, Bolton",
+            "name": "Smilie Memorial School"
+        }
+    ],
+    "Bradford": [
+        {
+            "address": "172 North Main Street, Bradford",
+            "name": "Bradford Academy"
+        }
+    ],
+    "Braintree": [
+        {
+            "address": "932 VT-12A, Braintree",
+            "name": "Braintree Town Clerk's Office"
+        }
+    ],
+    "Brandon": [
+        {
+            "address": "550 Franklin Street, Brandon",
+            "name": "Brandon American Legion Post 55"
+        }
+    ],
+    "Brattleboro": [
+        {
+            "address": "32 Linden Street, Brattleboro",
+            "name": "American Legion"
+        }
+    ],
+    "Bridgewater": [
+        {
+            "address": "7335 US RT 4, Bridgewater",
+            "name": "Town Office Parking Lot"
+        }
+    ],
+    "Bridport": [
+        {
+            "address": "52 Crown Point Road, Bridport",
+            "name": "Bridport Masonic Hall"
+        }
+    ],
+    "Brighton": [
+        {
+            "address": "49 Mill Street Ext., Brighton",
+            "name": "Town Hall"
+        }
+    ],
+    "Bristol": [
+        {
+            "address": "1 South Street, Bristol",
+            "name": "Holley Hall"
+        }
+    ],
+    "Brookfield": [
+        {
+            "address": "93 Stone Road, Brookfield",
+            "name": "Brookfield Old Town Hall"
+        }
+    ],
+    "Brookline": [
+        {
+            "address": "734 Grassy Brook Road, Brookline",
+            "name": "Brookline Town Offices"
+        }
+    ],
+    "Brownington": [
+        {
+            "address": "622 Schoolhouse Road, Orleans",
+            "name": "Brownington Central School"
+        }
+    ],
+    "Brunswick": [
+        {
+            "address": "994 VT-102, Brunswick",
+            "name": "Town of Brunswick"
+        }
+    ],
+    "Burlington": [
+        {
+            "address": "100 Mansfield Ave., Burlington",
+            "name": "Mater Christi School"
+        },
+        {
+            "address": "6 Archibald Street, Burlington",
+            "name": "HO Wheeler School"
+        },
+        {
+            "address": "123 North Street, Burlington",
+            "name": "Lawrence Barnes School"
+        },
+        {
+            "address": "1271 North Avenue, Burlington",
+            "name": "St. Marks Youth Center"
+        },
+        {
+            "address": "585 Pine Street, Burlington",
+            "name": "Burlington Electric Department"
+        },
+        {
+            "address": "275 Main Street, Burlington",
+            "name": "Edmunds Middle School"
+        },
+        {
+            "address": "130 Gosse Street, Burlington",
+            "name": "Robert Miller Community Center"
+        },
+        {
+            "address": "235 College Street, Burlington",
+            "name": "Fletcher Free Library"
+        }
+    ],
+    "Cabot": [
+        {
+            "address": "3084 Main Street, Cabot",
+            "name": "Willey Building"
+        }
+    ],
+    "Calais": [
+        {
+            "address": "1662 Kent Hill Road, Calais",
+            "name": "Town Hall"
+        }
+    ],
+    "Cambridge": [
+        {
+            "address": "186 School Road, Cambridge",
+            "name": "Cambridge Elementary School"
+        }
+    ],
+    "Canaan": [
+        {
+            "address": "318 Christian Hill, Canaan",
+            "name": "Canaan Town Office"
+        }
+    ],
+    "Castleton": [
+        {
+            "address": "275 Route 30 North, Castleton",
+            "name": "Castleton Fire Station"
+        }
+    ],
+    "Cavendish": [
+        {
+            "address": "513 Main Street, Proctorsville",
+            "name": "Proctorsville Fire Department"
+        }
+    ],
+    "Charleston": [
+        {
+            "address": "5063 VT-105, West Charleston",
+            "name": "Charleston Town Clerk"
+        }
+    ],
+    "Charlotte": [
+        {
+            "address": "159 Ferry Road, Charlotte",
+            "name": "Town Offices"
+        }
+    ],
+    "Chelsea": [
+        {
+            "address": "296 VT-110, Chelsea",
+            "name": "Chelsea Town Hall"
+        }
+    ],
+    "Chester": [
+        {
+            "address": "556 Elm Street, Chester",
+            "name": "Chester Town Hall, Second Floor"
+        }
+    ],
+    "Chittenden": [
+        {
+            "address": "260 Chittenden Road, Chittenden",
+            "name": "Chittenden Municipal Offices"
+        }
+    ],
+    "Clarendon": [
+        {
+            "address": "279 Middle Road, North Clarendon",
+            "name": "Clarendon Town Hall"
+        }
+    ],
+    "Colchester": [
+        {
+            "address": "131 Laker Lane, Colchester",
+            "name": "Colchester High School Gymnasium"
+        }
+    ],
+    "Concord": [
+        {
+            "address": "456 Main Street, Concord",
+            "name": "Concord Town Hall"
+        }
+    ],
+    "Corinth": [
+        {
+            "address": "1387 Cookeville Road, Corinth",
+            "name": "Town Hall"
+        }
+    ],
+    "Cornwall": [
+        {
+            "address": "2629 Route 30, Middlebury",
+            "name": "Town Hall"
+        }
+    ],
+    "Coventry": [
+        {
+            "address": "168 Main Street, Coventry",
+            "name": "Coventry Community Center"
+        }
+    ],
+    "Craftsbury": [
+        {
+            "address": "85 South Craftsbury Road, Craftsbury",
+            "name": "Craftsbury Town Hall"
+        }
+    ],
+    "Danby": [
+        {
+            "address": "130 Brook Road, Danby",
+            "name": "Municipal Office   "
+        }
+    ],
+    "Danville": [
+        {
+            "address": "36 US Route 2 West, Danville",
+            "name": "Danville School"
+        }
+    ],
+    "Derby": [
+        {
+            "address": "124 Main Street, Derby Line",
+            "name": "Derby Municipal Office"
+        }
+    ],
+    "Dorset": [
+        {
+            "address": "112 Mad Tom Road, East Dorset",
+            "name": "Dorset Town Offices"
+        }
+    ],
+    "Dummerston": [
+        {
+            "address": "1535 Middle Road, Dummerston",
+            "name": "Dummerston Town Clerk"
+        }
+    ],
+    "Duxbury": [
+        {
+            "address": "5421 VT Route 100",
+            "name": "Town Offices"
+        }
+    ],
+    "East Dover": [
+        {
+            "address": "189 Taft Brook Road, East Dover",
+            "name": "Town Hall"
+        }
+    ],
+    "East Haven": [
+        {
+            "address": "64 Community Building Road, East Haven",
+            "name": "Community Building"
+        }
+    ],
+    "East Montpelier": [
+        {
+            "address": "665 Vincent Flats Road, East Montpelier",
+            "name": "East Montpelier Elementary School"
+        }
+    ],
+    "Eden": [
+        {
+            "address": "71 Old Schoolhouse Road, Eden",
+            "name": "Town Clerk Office"
+        }
+    ],
+    "Elmore": [
+        {
+            "address": "1175 VT-12, Wolcott",
+            "name": "Elmore Town Clerk"
+        }
+    ],
+    "Enosburgh Falls": [
+        {
+            "address": "83 Sampsonville Road, Enosburgh Falls",
+            "name": "Enosburgh Emergency Services"
+        }
+    ],
+    "Essex": [
+        {
+            "address": "60 Founders Road, Essex Junction",
+            "name": "Essex Middle School"
+        },
+        {
+            "address": "2 Educational Drive, Essex Junction",
+            "name": "Essex High School"
+        }
+    ],
+    "Fair Haven": [
+        {
+            "address": "72 South Main St., Fair Haven",
+            "name": "American Legion Post #49"
+        }
+    ],
+    "Fairfax": [
+        {
+            "address": "12 Buck Hollow Road",
+            "name": "Fairfax Town Office"
+        }
+    ],
+    "Fairfield": [
+        {
+            "address": "25 North Road, Fairfield",
+            "name": "Fairfield Municipal Building (Basement)"
+        }
+    ],
+    "Fairlee": [
+        {
+            "address": "75 Town Common Road, Fairlee",
+            "name": "Fairlee Town Hall"
+        }
+    ],
+    "Fayston": [
+        {
+            "address": "866 North Fayston Road, Moretown",
+            "name": "Fayston Municipal Building"
+        }
+    ],
+    "Ferrisburg": [
+        {
+            "address": "3279 Route 7, Ferrisburg",
+            "name": "Town Hall and Community Center"
+        }
+    ],
+    "Fletcher": [
+        {
+            "address": "33 Shaw Road, Cambridge",
+            "name": "Fletcher Town Offices"
+        }
+    ],
+    "Franklin": [
+        {
+            "address": "5336 Main Street, Franklin",
+            "name": "Franklin Town Hall"
+        }
+    ],
+    "Georgia": [
+        {
+            "address": "4416 Ethan Allen Highway, Georgia",
+            "name": "Georgia School"
+        }
+    ],
+    "Glover": [
+        {
+            "address": "51 Bean Hill, Glover",
+            "name": "Glover Town Hall"
+        }
+    ],
+    "Goshen": [
+        {
+            "address": "50 Carlisle Hill Road, Goshen",
+            "name": "Goshen Town Hall"
+        }
+    ],
+    "Grafton": [
+        {
+            "address": "2 Main Street, Grafton",
+            "name": "The Grafton Brick Meeting House"
+        }
+    ],
+    "Granby": [
+        {
+            "address": "9005 Granby Road, North Concord",
+            "name": "Granby Town Hall"
+        }
+    ],
+    "Grand Isle": [
+        {
+            "address": "9 Hyde Road, Grand Isle",
+            "name": "Grand Isle Town Municipal Building"
+        }
+    ],
+    "Granville": [
+        {
+            "address": "4157 VT Route 100, Granville",
+            "name": "Town Hall"
+        }
+    ],
+    "Greensboro": [
+        {
+            "address": "82 Craftsbury Rd., Greensboro",
+            "name": "Town Clerk"
+        }
+    ],
+    "Groton": [
+        {
+            "address": "1476 Scott Highway, Groton",
+            "name": "Groton Community Building Gym"
+        }
+    ],
+    "Guildford": [
+        {
+            "address": "3940 Guilford Center Road, Brattleboro",
+            "name": "Broad Brook Community Center"
+        }
+    ],
+    "Guildhall": [
+        {
+            "address": "13 Courthouse Drive, Guildhall",
+            "name": "The Guild Hall   (Town Hall)"
+        }
+    ],
+    "Halifax": [
+        {
+            "address": "20 Brook Road, Halifax",
+            "name": "Halifax Community Hall"
+        }
+    ],
+    "Hancock": [
+        {
+            "address": "1027 VT Route 100, Hancock",
+            "name": "Hancock Town Hall"
+        }
+    ],
+    "Hardwick": [
+        {
+            "address": "333 Wolcott Street, Hardwick",
+            "name": "Hardwick Fire Station"
+        }
+    ],
+    "Hartford": [
+        {
+            "address": "37 Highland Avenue, White River Junction",
+            "name": "Hartford High School"
+        }
+    ],
+    "Hartland": [
+        {
+            "address": "1 Quechee Road, Hartland",
+            "name": "Damon Hall"
+        }
+    ],
+    "Highgate": [
+        {
+            "address": "243 Gore Road, Highgate Center",
+            "name": "Highgate Sports Arena"
+        }
+    ],
+    "Hinesburg": [
+        {
+            "address": "10632 Route 116, Hinesburg",
+            "name": "Hinesburg Town Hall"
+        }
+    ],
+    "Holland": [
+        {
+            "address": "26 School Road, Holland",
+            "name": "Holland Elementary School"
+        }
+    ],
+    "Hubbardton": [
+        {
+            "address": "1831 Monument Hill Road, Castleton",
+            "name": "Town Hall"
+        }
+    ],
+    "Huntington": [
+        {
+            "address": "120 School Street, Huntington",
+            "name": "Brewster-Pierce School"
+        }
+    ],
+    "Hyde Park": [
+        {
+            "address": "344 VT-15, Hyde Park",
+            "name": "Hyde Park Municipal Building (Lower Level)"
+        }
+    ],
+    "Ira": [
+        {
+            "address": "53 West Road, West Rutland",
+            "name": "Ira Town Office"
+        }
+    ],
+    "Irasburg": [
+        {
+            "address": "118 Park Avenue, Irasburg",
+            "name": "Irasburg Town Hall"
+        }
+    ],
+    "Isle La Motte": [
+        {
+            "address": "42 School Street Ext.",
+            "name": "Town Hall Gym"
+        }
+    ],
+    "Jamaica": [
+        {
+            "address": "3735 Vermont Route 30, Jamaica",
+            "name": "Town Hall"
+        }
+    ],
+    "Jay": [
+        {
+            "address": "1036 VT Route 242, Jay",
+            "name": "Jay Municipal Building"
+        }
+    ],
+    "Jericho": [
+        {
+            "address": "211 Brown's Trace, Jericho",
+            "name": "Mount Mansfield Union High School"
+        }
+    ],
+    "Johnson": [
+        {
+            "address": "293 Lower Main West, Johnson",
+            "name": "Johnson Municipal Building"
+        }
+    ],
+    "Killington": [
+        {
+            "address": "2706 River Road, Killington",
+            "name": "Killington Town Office"
+        }
+    ],
+    "Kirby": [
+        {
+            "address": "346 Town Hall Road, Lyndonville",
+            "name": "Kirby Town Hall"
+        }
+    ],
+    "Landgrove": [
+        {
+            "address": "88 Landgrove Road, Londonderry",
+            "name": "Landgrove Town Hall"
+        }
+    ],
+    "Leicester": [
+        {
+            "address": "44 School House Road, Leicester",
+            "name": "Town Office"
+        }
+    ],
+    "Lemington": [
+        {
+            "address": "2549 River Road, Guildhall",
+            "name": "Lemington Town Office"
+        }
+    ],
+    "Lincoln": [
+        {
+            "address": "62 Quaker Street, Lincoln",
+            "name": "Lincoln Town Office"
+        }
+    ],
+    "Londonderry": [
+        {
+            "address": "100 Old School Street, Londonderry",
+            "name": "Town Office/Twitchell Building"
+        }
+    ],
+    "Lowell": [
+        {
+            "address": "2170 Vermont Route 100, Lowell",
+            "name": "Town Office"
+        }
+    ],
+    "Ludlow": [
+        {
+            "address": "37 Depot Street, Ludlow",
+            "name": "Town Hall"
+        }
+    ],
+    "Lunenburg": [
+        {
+            "address": "49 Bobbin Mill Road, Lunenburg",
+            "name": "Lunenburg School"
+        }
+    ],
+    "Lyndon": [
+        {
+            "address": "119 Park Avenue",
+            "name": "Municipal Office Building Gymnasium"
+        }
+    ],
+    "Maidstone": [
+        {
+            "address": "508 VT Route 102, Guildhall",
+            "name": "Maidstone Town Hall"
+        }
+    ],
+    "Manchester": [
+        {
+            "address": "40 Jeff Williams Way, Manchester Center",
+            "name": "Manchester Town Hall"
+        }
+    ],
+    "Marlboro": [
+        {
+            "address": "13 Town Hill Road, Brattleboro",
+            "name": "Marlboro Town House"
+        }
+    ],
+    "Marshfield": [
+        {
+            "address": "122 School Street, Marshfield",
+            "name": "Old Schoolhouse Common"
+        }
+    ],
+    "Mendon": [
+        {
+            "address": "157 Park Lane, Mendon",
+            "name": "Mendon Town Garage"
+        }
+    ],
+    "Middlebury": [
+        {
+            "address": "154 Creek Road, Middlebury",
+            "name": "Middlebury Recreation Center"
+        }
+    ],
+    "Middlesex": [
+        {
+            "address": "5 Church Street, Middlesex",
+            "name": "Middlesex Town Clerk"
+        }
+    ],
+    "Middletown Springs": [
+        {
+            "address": "4 Park Avenue, Middletown Springs",
+            "name": "Historical Society Building"
+        }
+    ],
+    "Milton": [
+        {
+            "address": "43 Bombardier Road, Milton",
+            "name": "Milton Municipal Office Building (Chittenden 10)"
+        },
+        {
+            "address": "Park Place",
+            "name": "Field House (Grand Isle/Chittenden)"
+        }
+    ],
+    "Monkton": [
+        {
+            "address": "3747 States Prison Hollow Rd, Monkton",
+            "name": "Fire Station"
+        }
+    ],
+    "Montgomery": [
+        {
+            "address": "57 Main Street, Montgomery Ctr",
+            "name": "Town Hall (Grange)"
+        }
+    ],
+    "Montpelier": [
+        {
+            "address": "39 Main Street, Montpelier",
+            "name": "City Hall"
+        }
+    ],
+    "Moretown": [
+        {
+            "address": "940 VT-100B, Moretown",
+            "name": "Town Hall"
+        }
+    ],
+    "Morgan": [
+        {
+            "address": "41 Meade Hill Road, Morgan",
+            "name": "Town Clerk's Office"
+        }
+    ],
+    "Morristown": [
+        {
+            "address": "28 VFW Street",
+            "name": "Morrisville VFW"
+        }
+    ],
+    "Mount Holly": [
+        {
+            "address": "50 School Street, Pawlet",
+            "name": "Mount Holly Town Office"
+        }
+    ],
+    "Mount Tabor": [
+        {
+            "address": "522 Brooklyn Road, Mount Tabor",
+            "name": "Town Office"
+        }
+    ],
+    "New Haven": [
+        {
+            "address": "70 North Street, New Haven",
+            "name": "Town Hall"
+        }
+    ],
+    "Newark": [
+        {
+            "address": "1336 Newark Street, Newark",
+            "name": "Newark Town Clerk"
+        }
+    ],
+    "Newbury": [
+        {
+            "address": "214 Pulaski Street, Newbury",
+            "name": "Newbury Elementary School "
+        }
+    ],
+    "Newfane": [
+        {
+            "address": "698 VT Route 30, Newfane",
+            "name": "Newbrook Fire Station"
+        }
+    ],
+    "Newport City": [
+        {
+            "address": "222 Main Street, Newport",
+            "name": "Newport Municipal Building"
+        }
+    ],
+    "Newport Town": [
+        {
+            "address": "102 Vance Hill Road, Newport Center",
+            "name": "Town Clerk Office"
+        }
+    ],
+    "North Hero": [
+        {
+            "address": "6441 US Route 2, North Hero",
+            "name": "Town Office Meeting Room"
+        }
+    ],
+    "Northfield": [
+        {
+            "address": "37 Cross Street, Northfield",
+            "name": "Northfield High School"
+        }
+    ],
+    "Norton": [
+        {
+            "address": "12 VT Route 114 E, Norton",
+            "name": "Norton Town Hall"
+        }
+    ],
+    "Norwich": [
+        {
+            "address": "300 Main Street, Norwich",
+            "name": "Tracy Hall Gym"
+        }
+    ],
+    "Orange": [
+        {
+            "address": "392 US Route 302, Orange",
+            "name": "Town Hall"
+        }
+    ],
+    "Orwell": [
+        {
+            "address": "480 Main Street, Orwell",
+            "name": "Orwell Town Hall"
+        }
+    ],
+    "Panton": [
+        {
+            "address": "2167 Panton Road, Panton",
+            "name": "Town Garage"
+        }
+    ],
+    "Pawlet": [
+        {
+            "address": "122 School Street, Pawlet",
+            "name": "Town Hall"
+        }
+    ],
+    "Peacham": [
+        {
+            "address": "79 Church Street, Peacham",
+            "name": "Peacham Town Office"
+        }
+    ],
+    "Peru": [
+        {
+            "address": "402 Main Street, Peru",
+            "name": "Peru Town Center"
+        }
+    ],
+    "Pittsfield": [
+        {
+            "address": "40 Village Green, Pittsfield",
+            "name": "Pittsfield Town Office Building"
+        }
+    ],
+    "Pittsford": [
+        {
+            "address": "150 Pleasant Street, Pittsford",
+            "name": "Pittsford Fire Department"
+        }
+    ],
+    "Plainfield": [
+        {
+            "address": "18 High Street, Plainfield",
+            "name": "Plainfield Town Hall Opera House"
+        }
+    ],
+    "Plymouth": [
+        {
+            "address": "68 Town Office Road, Plymouth",
+            "name": "Town Hall"
+        }
+    ],
+    "Pomfret": [
+        {
+            "address": "5218 Pomfret Road, North Pomfret",
+            "name": "Pomfret Town Offices"
+        }
+    ],
+    "Poultney": [
+        {
+            "address": "55 Fire House Lane, Poultney",
+            "name": "Poultney Fire House"
+        }
+    ],
+    "Pownal": [
+        {
+            "address": "2872 North Pownal Road, Pownal",
+            "name": "Pownal Center Fire House"
+        }
+    ],
+    "Proctor": [
+        {
+            "address": "4 Park Street, Proctor",
+            "name": "Proctor Jr./Sr. High School"
+        }
+    ],
+    "Putney": [
+        {
+            "address": "21 Carl Snyder Drive, Brattleboro",
+            "name": "Putney Fire Station"
+        }
+    ],
+    "Randolph": [
+        {
+            "address": "7 Summer Street, Randolph",
+            "name": "Randolph Town Hall"
+        }
+    ],
+    "Reading": [
+        {
+            "address": "799 VT Route 106, Reading",
+            "name": "Robinson Hall"
+        }
+    ],
+    "Readsboro": [
+        {
+            "address": "301 Phelps Lane, Readsboro",
+            "name": "Readsboro Central School"
+        }
+    ],
+    "Richford": [
+        {
+            "address": "94 Main Street, Richford",
+            "name": "Richford Town Hall"
+        }
+    ],
+    "Richmond": [
+        {
+            "address": "173 School Street, Richmond",
+            "name": "Camels Hump Middle School"
+        }
+    ],
+    "Ripton": [
+        {
+            "address": "1311 VT Route 125, Ripton",
+            "name": "Town Office"
+        }
+    ],
+    "Rochester": [
+        {
+            "address": "222 South Main Street, Rochester",
+            "name": "Rochester High School"
+        }
+    ],
+    "Rockingham": [
+        {
+            "address": "61 Westminster Street, Bellows Falls",
+            "name": "Masonic Temple"
+        }
+    ],
+    "Roxbury": [
+        {
+            "address": "1664 Roxbury Road, Roxbury",
+            "name": "Town Office"
+        }
+    ],
+    "Royalton": [
+        {
+            "address": "223 South Windsor Street, Gym Entrance, South Royalton",
+            "name": "White River Union School, Royalton Campus, Large Gym"
+        }
+    ],
+    "Rupert": [
+        {
+            "address": "187 East Street, Shaftsbury",
+            "name": "Town Office"
+        }
+    ],
+    "Rutland": [
+        {
+            "address": "1612 Post Road, Rutland",
+            "name": "Rutland Town Elementary School"
+        },
+        {
+            "address": "22 Deer Street, Rutland",
+            "name": "Godnick Center"
+        },
+        {
+            "address": "60 South Main Street, Rutland",
+            "name": "Christ the King School"
+        },
+        {
+            "address": "33 Washington Street, Rutland",
+            "name": "American Legion"
+        },
+        {
+            "address": "2 Meadow Way, Rutland",
+            "name": "Calvary Bible Church"
+        }
+    ],
+    "Ryegate": [
+        {
+            "address": "134 Witherspoon Road, South Ryegate",
+            "name": "Ryegate Town Hall"
+        }
+    ],
+    "Saint Albans": [
+        {
+            "address": "100 North Main Street, Saint Albans",
+            "name": "St. Albans City Hall"
+        },
+        {
+            "address": "890 Fairfax Road, Saint Albans",
+            "name": "Collins Perley Sports Center"
+        }
+    ],
+    "Saint George": [
+        {
+            "address": "35 Barber Road, Saint George",
+            "name": "Little Red Schoolhouse"
+        }
+    ],
+    "Saint Johnsbury": [
+        {
+            "address": "51 Depot Square, St. Johnsbury",
+            "name": "Town Office"
+        }
+    ],
+    "Salisbury": [
+        {
+            "address": "25 Schoolhouse Road, Salisbury",
+            "name": "Salisbury Town Office"
+        }
+    ],
+    "Sandgate": [
+        {
+            "address": "3266 Sandgate Road, Arlington",
+            "name": "Sandgate Town Hall"
+        }
+    ],
+    "Searsburg": [
+        {
+            "address": "18 Town Garage Road, Wilmington",
+            "name": "Town Clerks Office"
+        }
+    ],
+    "Shaftsbury": [
+        {
+            "address": "526 North Road, Shaftsbury",
+            "name": "Town Garage"
+        }
+    ],
+    "Sharon": [
+        {
+            "address": "75 VT-132, Sharon",
+            "name": "Sharon Elementary School"
+        }
+    ],
+    "Sheffield": [
+        {
+            "address": "37 Dane Road, Sheffield",
+            "name": "Sheffield Town Office"
+        }
+    ],
+    "Shelburne": [
+        {
+            "address": "5420 Shelburne Road, Shelburne",
+            "name": "Town Center Gym"
+        }
+    ],
+    "Sheldon": [
+        {
+            "address": "1640 Main Street, Sheldon",
+            "name": "Sheldon School"
+        }
+    ],
+    "Shoreham": [
+        {
+            "address": "297 Main Street, Shoreham",
+            "name": "Town Offices"
+        }
+    ],
+    "Shrewsbury": [
+        {
+            "address": "88 Lottery Road, Cuttingsville",
+            "name": "Shrewsbury Community Meeting House"
+        }
+    ],
+    "South Burlington": [
+        {
+            "address": "2 Baldwin Avenue, South Burlington",
+            "name": "Orchard School"
+        },
+        {
+            "address": "500 Dorset Street, South Burlington",
+            "name": "FHT Middle School"
+        },
+        {
+            "address": "262 White Street, South Burlington",
+            "name": "Chamberlin School"
+        }
+    ],
+    "South Hero": [
+        {
+            "address": "333 Route 2, South Hero",
+            "name": "Town Office Building"
+        }
+    ],
+    "Springfield": [
+        {
+            "address": "13 Fairground Road, Springfield",
+            "name": "Riverside Middle School"
+        }
+    ],
+    "Stamford": [
+        {
+            "address": "986 Main Road, Stamford",
+            "name": "Stamford Elementary School"
+        }
+    ],
+    "Stannard": [
+        {
+            "address": "516 Stannard Mountain Road, Greensboro Bend",
+            "name": "Stannard Town Hall"
+        }
+    ],
+    "Starksboro": [
+        {
+            "address": "41 Parsonage Road, Starksboro",
+            "name": "Robinson Elementary School"
+        }
+    ],
+    "Stockbridge": [
+        {
+            "address": "1722 VT Route 100, Stockbridge",
+            "name": "Stockbridge Town Office"
+        }
+    ],
+    "Stowe": [
+        {
+            "address": "67 Main Street, Stowe",
+            "name": "Akeley Memorial Building"
+        }
+    ],
+    "Strafford": [
+        {
+            "address": "12 Brook Road, Strafford",
+            "name": "Strafford Town House"
+        }
+    ],
+    "Stratton": [
+        {
+            "address": "9 W Jamaica Rd, Stratton",
+            "name": "Stratton Town Clerk"
+        }
+    ],
+    "Sudbury": [
+        {
+            "address": "2759 Route 30, Sudbury",
+            "name": "Sudbury Town Hall"
+        }
+    ],
+    "Sunderland": [
+        {
+            "address": "104 Mountain View Road, Arlington",
+            "name": "Sunderland Municipal Offices"
+        }
+    ],
+    "Sutton": [
+        {
+            "address": "167 Underpass Road, Sutton",
+            "name": "Town Clerk's Office"
+        }
+    ],
+    "Swanton": [
+        {
+            "address": "120 1st Street, Swanton",
+            "name": "Swanton Village Complex"
+        }
+    ],
+    "Thetford": [
+        {
+            "address": "3910 VT Route 113, Thetford Center",
+            "name": "Town Hall"
+        }
+    ],
+    "Tinmouth": [
+        {
+            "address": "573 Route 140, Wallingford",
+            "name": "Tinmouth Community Center"
+        }
+    ],
+    "Topsham": [
+        {
+            "address": "6 Harts Road, Topsham",
+            "name": "Topsham Town Clerk"
+        }
+    ],
+    "Townshend": [
+        {
+            "address": "2006 VT Route 30, Townshend",
+            "name": "Town Hall"
+        }
+    ],
+    "Troy": [
+        {
+            "address": "142 Main Street, North Troy",
+            "name": "Town Clerk's Office"
+        }
+    ],
+    "Tunbridge": [
+        {
+            "address": "27 VT-110, South Royalton",
+            "name": "Tunbridge Town Hall"
+        }
+    ],
+    "Underhill": [
+        {
+            "address": "12 Pleasant Valley Road, Underhill",
+            "name": "Town Hall"
+        }
+    ],
+    "Vergennes": [
+        {
+            "address": "50 Green Street, Vergennes",
+            "name": "Fire Station"
+        }
+    ],
+    "Vernon": [
+        {
+            "address": "567 Governor Hunt Road, Vernon",
+            "name": "Vernon Town Hall"
+        }
+    ],
+    "Vershire": [
+        {
+            "address": "27 Vershire Center Road, Vershire",
+            "name": "Town Center Building"
+        }
+    ],
+    "Victory": [
+        {
+            "address": "102 Radar Road, N. Concord",
+            "name": "Victory Town Hall"
+        }
+    ],
+    "Waitsfield": [
+        {
+            "address": "3951 Main Street, Waitsfield",
+            "name": "Waitsfield Elementary School"
+        }
+    ],
+    "Walden": [
+        {
+            "address": "12 VT-215, West Danville",
+            "name": "Emergency Services Building"
+        }
+    ],
+    "Wallingford": [
+        {
+            "address": "75 School Street, Wallingford",
+            "name": "Wallingford Town Hall"
+        }
+    ],
+    "Waltham": [
+        {
+            "address": "2053 Maple Street, Vergennes",
+            "name": "Town of Waltham"
+        }
+    ],
+    "Wardsboro": [
+        {
+            "address": "71 Main Street, Wardsboro",
+            "name": "Town Hall"
+        }
+    ],
+    "Warren": [
+        {
+            "address": "413 Main Street, Warren",
+            "name": "Warren Town Hall"
+        }
+    ],
+    "Washington": [
+        {
+            "address": "2895 VT Route 110, Washington",
+            "name": "Washington Town Hall"
+        }
+    ],
+    "Waterbury": [
+        {
+            "address": "47 Stowe Street, Waterbury",
+            "name": "Thatcher Brook Primary School"
+        }
+    ],
+    "Waterford": [
+        {
+            "address": "532 Maple Street, Lower Waterford",
+            "name": "Davies Memorial Library"
+        }
+    ],
+    "Waterville": [
+        {
+            "address": "544 VT Route 109, Waterville",
+            "name": "Waterville Town Hall"
+        }
+    ],
+    "Wells": [
+        {
+            "address": "1064 VT RT 30, Wells",
+            "name": "Wells Town Office"
+        }
+    ],
+    "West Burke": [
+        {
+            "address": "212 School Street, West Burke",
+            "name": "Burke Community Building"
+        }
+    ],
+    "West Fairlee": [
+        {
+            "address": "870 VT Route 113, West Fairlee",
+            "name": "Community Building/Town Office"
+        }
+    ],
+    "West Haven": [
+        {
+            "address": "2919 Main Road, Fair Haven",
+            "name": "Community Hall"
+        }
+    ],
+    "West Rutland": [
+        {
+            "address": "35 Marble Street, West Rutland",
+            "name": "Town Hall"
+        }
+    ],
+    "West Townshend": [
+        {
+            "address": "5976 Windham Hill Road, West Townshend",
+            "name": "Windham Town Office"
+        }
+    ],
+    "West Windsor": [
+        {
+            "address": "22 Brownsville-Hartland Road, Windsor",
+            "name": "Story Memorial Hall"
+        }
+    ],
+    "Westfield": [
+        {
+            "address": "59 North Hill Road, Westfield",
+            "name": "Westfield Community Center"
+        }
+    ],
+    "Westford": [
+        {
+            "address": "146 Brookside Road, Westford",
+            "name": "Westford School"
+        }
+    ],
+    "Westminster": [
+        {
+            "address": "3651 US Route 5, Westminster",
+            "name": "Westminster Town Hall"
+        }
+    ],
+    "Westmore": [
+        {
+            "address": "30 Hinton Hill Road, Orleans",
+            "name": "Westmore Municipal Offices"
+        }
+    ],
+    "Weston": [
+        {
+            "address": "12 Park Street, Weston",
+            "name": "Weston Playhouse"
+        }
+    ],
+    "Weybridge": [
+        {
+            "address": "1727 Quaker Village Road, Weybridge",
+            "name": "Town Clerk's Office"
+        }
+    ],
+    "Wheelock": [
+        {
+            "address": "1192 Route 122, Lyndonville",
+            "name": "Wheelock Town Hall"
+        }
+    ],
+    "Whiting": [
+        {
+            "address": "27 South Main Street, Whiting",
+            "name": "Town Hall"
+        }
+    ],
+    "Whitingham": [
+        {
+            "address": "2948 VT Route 100, Whitingham",
+            "name": "Whitingham Municipal Center"
+        }
+    ],
+    "Williamstown": [
+        {
+            "address": "120 Hebert Road, Williamstown",
+            "name": "Williamstown Middle/High School"
+        }
+    ],
+    "Williston": [
+        {
+            "address": "7846 Williston Road, Williston",
+            "name": "Williston Armory"
+        }
+    ],
+    "Wilmington": [
+        {
+            "address": "1 School Street, Wilmington",
+            "name": "The Old School Community Center"
+        }
+    ],
+    "Windham": [
+        {
+            "address": "26 Harrington Road, Windham",
+            "name": "Windham Meeting House"
+        }
+    ],
+    "Windsor": [
+        {
+            "address": "29 Union Street, Windsor",
+            "name": "Windsor Municipal Bldg. Rec. Ctr. Gym"
+        }
+    ],
+    "Winhall": [
+        {
+            "address": "115 VT-30, Winhall",
+            "name": "Winhall Town Hall"
+        }
+    ],
+    "Winooski": [
+        {
+            "address": "123 Barlow Street, Winooski",
+            "name": "Winooski Senior Center"
+        }
+    ],
+    "Wolcott": [
+        {
+            "address": "28 Railroad Street, Wolcott",
+            "name": "Wolcott Town Office"
+        }
+    ],
+    "Woodbury": [
+        {
+            "address": "3675 VT Route 14, Woodbury",
+            "name": "Woodbury Town Hall"
+        }
+    ],
+    "Woodford": [
+        {
+            "address": "1391 VT Route 9, Bennington",
+            "name": "Woodford Town Hall"
+        }
+    ],
+    "Woodstock": [
+        {
+            "address": "31 The Green, Woodstock",
+            "name": "Town Hall"
+        }
+    ],
+    "Worcester": [
+        {
+            "address": "12 Worcester Village Road, Worcester",
+            "name": "Worcester Town Hall"
+        }
+    ]
+}

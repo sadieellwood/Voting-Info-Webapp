@@ -17,3 +17,4 @@ class Address(BaseModel):
 class VoterInfoRequest(BaseModel):
     address: str
     electionId: int
+    city: str

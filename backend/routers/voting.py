@@ -11,7 +11,8 @@ router = APIRouter(tags=["Voting"])
 def get_voter_info(request: VoterInfoRequest):
     return get_polling_info(
         address=request.address,
-        election_id=request.electionId
+        election_id=request.electionId,
+        city=request.city
     )
 
 @router.get("/elections")
